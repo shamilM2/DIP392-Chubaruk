@@ -31,3 +31,24 @@ Dice rolling: Since Bunco is a game that revolves around rolling dice, the softw
   Easy to use: The software should be intuitive and easy to use, 
 Other notes:
 <<Insert notes>>
+
+Software Requirements
+<<Use your notes from above to complete this section of the formal documentation by writing a detailed description of the project, including a paragraph overview of the project followed by a list of requirements (see lecture for format of requirements). You may also choose to include user stories.>>
+
+Software Requirements:
+Overview: The aim of this project is to create a software program that enables players to participate in Bunco, which is a straightforward dice game. The software will be designed to accommodate multiple players, allowing each player to roll three dice and keep track of scores for each round. The software will also indicate the current player's turn. The target users of this software are junior players (ages 13-18), adult players (ages 18-65), and senior players (age 65 and above). The software should be intuitive and easy to use, allowing users to interact with the program by using basic menu functions to start the game and exit, as well as the ability to roll a dice by pressing a button and seeing the progress of the game. The software should have sound effects that add to the fun and excitement of playing Bunco.
+Requirements: Functional:
+1.	The software shall allow multiple players to participate in a game of Bunco.
+2.	The software shall allow each player to roll three dice.
+3.	The software shall keep track of scores for each round.
+4.	The software shall indicate the current player's turn.
+5.	The software shall have a feature that allows players to roll the dice virtually.
+6.	The software shall have a feature that plays different sound effects when certain events occur during the game.
+7.	The software shall have basic menu functions, including the ability to start the game and exit.
+
+Non-functional: N/A
+
+Constraints: N/A
+
+User Stories: As a junior player, I want to be able to easily navigate the software and understand how to play Bunco so that I can have fun and enjoy the game with my friends. As an adult player, I want the software to be reliable and bug-free, so that I can play the game without any interruptions or issues. As a senior player, I want the software to have a clear and readable interface, so that I can see my scores and understand the game easily.
+
