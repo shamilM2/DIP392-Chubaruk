@@ -100,3 +100,28 @@ so that I can play the game without any interruptions or issues.
 
 As a senior player, I want the software to have a clear and readable interface,
 so that I can see my scores and understand the game easily.
+
+
+Black-Box Testing
+Instructions: Week 4
+Journal
+Remember: Black box tests should only be based on your requirements and should work independent of design.
+
+The following prompts are meant to aid your thought process as you complete the black box testing portion of this exercise. Please review your list of requirements and respond to each of the prompts below. Feel free to add additional notes.
+●	What does input for the software look like (e.g., what type of data, how many pieces of data)?
+○	The input for the software includes various types of data, including player names, dice rolls, and game settings. The number of pieces of data will depend on the number of players, number of rounds, and other settings selected.
+
+●	What does output for the software look like (e.g., what type of data, how many pieces of data)?
+○	The output for the software includes game scores, current player turn, and other game-related information. The number of pieces of data will depend on the number of players, number of rounds, and other settings selected.
+
+●	What equivalence classes can the input be broken into? 
+○	The input can be broken into equivalence classes based on the number of players, number of rounds, type of dice rolls, and other game settings selected.
+○	
+●	What boundary values exist for the input?
+○	Boundary values for the input include minimum and maximum number of players, minimum and maximum number of rounds, minimum and maximum number of dice rolls, and other game settings
+
+●	Are there other cases that must be tested to test all requirements?
+○	Other cases that must be tested include error-handling cases such as incorrect input values, invalid user actions, and unexpected software behavior.
+●	Other notes:
+○	The testing should also include testing for sound effects, GUI design, and user experience. Additionally, the software should be tested for reliability and performance, ensuring that it can handle multiple players and maintain stability without crashing or producing errors during use.
+
