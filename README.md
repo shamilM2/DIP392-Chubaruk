@@ -125,3 +125,80 @@ The following prompts are meant to aid your thought process as you complete the 
 ●	Other notes:
 ○	The testing should also include testing for sound effects, GUI design, and user experience. Additionally, the software should be tested for reliability and performance, ensuring that it can handle multiple players and maintain stability without crashing or producing errors during use.
 
+
+Design
+Instructions: Week 6
+Journal
+Remember: You still will not be writing code at this point in the process.
+
+The following prompts are meant to aid your thought process as you complete the design portion of this exercise. Please respond to each of the prompts below and feel free to add additional notes.
+●	List the nouns from your requirements/analysis documentation.
+○	Software, program, players, Bunco, dice, scores, round, turn, menu, button, sound effects, events, performance, stability, scalability, graphics, time, experience, resources.
+●	Which nouns potentially may represent a class in your design?
+○	Game: This class would represent the game itself, and would have attributes such as the number of players, the current round, and the scores for each player.
+○	Dice: This class would represent the dice, and would have attributes such as the number of sides, and the value of the dice.
+
+●	Which nouns potentially may represent attributes/fields in your design? Also list the class each attribute/field would be a part of.
+○	Number of players: This attribute would be part of the Game class.
+○	Current round: This attribute would be part of the Game class.
+○	Scores: This attribute would be part of the Game class.
+○	Number of sides: This attribute would be part of the Dice class.
+○	Value of the dice: This attribute would be part of the Dice class.
+
+●	Now that you have a list of possible classes, consider different design options (lists of classes and attributes) along with the pros and cons of each. We often do not come up with the best design on our first attempt. Also consider whether any needed classes are missing. These two design options should not be GUI vs. non-GUI; instead you need to include the classes and attributes for each design. Reminder: Each design must include at least two classes that define object types.
+○	Design Option 1:
+      Classes:
+Game
+Dice Attributes/Fields:
+Number of players
+Current round
+Scores
+Number of sides
+Value of the dice 
+Pros: This design is simple and straightforward, with only two classes needed to represent the core functionality of the game. 
+Cons: This design may not be flexible enough to accommodate additional features or changes in requirements.
+
+○	Design Option 2: Classes:
+Game
+Dice
+Player Attributes/Fields:
+Number of players
+Current round
+Scores
+Number of sides
+Value of the dice
+Player name
+Player score 
+Pros: 
+This design is more flexible, with a separate class for players that could potentially allow for additional features such as player profiles or statistics. 
+Cons: This design may be more complex and may require additional development time to implement.
+○	
+●	Which design do you plan to use? Explain why you have chosen this design.
+First one, as it is simpler to implement
+●	List the verbs from your requirements/analysis documentation.
+○	Allow
+○	Roll
+○	Indicate
+○	Play
+○	Accommodate
+○	Have
+○	Start
+○	Exit
+○	Scale
+○	Be
+○	Crash
+○	Produce
+○	Work
+○	Use
+○	
+●	Which verbs potentially may represent a method in your design? Also list the class each method would be part of.
+○	Allow: This could potentially be a method in a class that handles the game logic and manages the players.
+○	Roll: This could potentially be a method in a class that handles the dice rolling functionality.
+○	Keep track: This could potentially be a method in a class that manages the scorekeeping for each round.
+○	Indicate: This could potentially be a method in a class that manages the current player's turn and updates the interface accordingly.
+○	Play: This could potentially be a method in a class that handles the overall game flow and progression.
+○	Start: This could potentially be a method in a class that handles the initial setup and configuration of the game.
+○	Exit: This could potentially be a method in a class that handles the termination of the game and cleanup tasks.
+●	Other notes:
+○	<<Insert notes>>
+
