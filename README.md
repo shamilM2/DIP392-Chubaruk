@@ -31,24 +31,24 @@ Welcome to the Bunco game! This game allows you to enjoy the classic dice game i
 3. Click the "Start Game" button to begin the game.
 4. In the game screen, enter the number of players in the input field and click the "Start" button.
 
-![Start Game](view/start_game.png)
+![Start Game](start_game.png)
 
 5. The game will progress through six rounds, with each player taking turns.
 6. A popup will display the current round number and the player's turn.
 
-![Popup](view/round_popup.png)
-![Popup](view/player_popup.png)
+![Popup](round_popup.png)
+![Popup](player_popup.png)
 
 7. Click the "OK" button to roll the dice.
 8. The dice values and their corresponding images will be displayed.
 
-![Dice Roll](view/dice_roll.png)
+![Dice Roll](dice_roll.png)
 
 9. The player's score for the round will be shown in a popup.
 10. Repeat steps 6 to 9 for each player in the game.
 11. After six rounds, the game will end, and a popup will show the final scores for each player.
 
-![Game Over](view/game_over.png)
+![Game Over](game_over.png)
 
 12. Close the popup to exit the game.
 
