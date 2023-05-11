@@ -26,7 +26,7 @@ Welcome to the Bunco game! This game allows you to enjoy the classic dice game i
    ```
 2. The main menu screen will appear, showing the options to start the game or exit.
 
-![Main Menu](view/main_menu.png)
+![Main Menu](main_menu.png)
 
 3. Click the "Start Game" button to begin the game.
 4. In the game screen, enter the number of players in the input field and click the "Start" button.
