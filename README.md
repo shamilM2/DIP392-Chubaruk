@@ -52,4 +52,4 @@ Welcome to the Bunco game! This game allows you to enjoy the classic dice game i
 
 12. Close the popup to exit the game.
 
-Enjoy playing Bunco! If you have any questions or feedback, please contact us at support@bunco-game.com.
+Enjoy playing Bunco! If you have any questions or feedback, please contact us at SMFLrtu@gmail.com
